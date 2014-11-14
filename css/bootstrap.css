@@ -5890,12 +5890,13 @@ button.close {
   font-size: 3vh;
 }
 .carousel-caption-left {
+  padding-top: 10%;
   position: absolute;
   right: 50%;
   bottom: 20px;
   left: 15%;
   z-index: 10;
-  padding-bottom: 40vh;
+  padding-bottom: 10%;
   color: #fff;
   text-shadow: 0 2px 4px rgba(0, 0, 0, .6);
 }
@@ -5905,6 +5906,7 @@ button.close {
 .carousel-caption-left p {
   font-size: 3vh;
 }.carousel-caption-right {
+  padding-top: 5%;
   position: absolute;
   left: 60%;
   bottom: 20px;
@@ -5915,7 +5917,7 @@ button.close {
   text-shadow: 0 2px 4px rgba(0, 0, 0, .6);
 }
 .carousel-caption-right h1 {
-  font-size: 15vh;
+  font-size: 10vh;
 }
 .carousel-caption-right p {
   font-size: 3vh;
@@ -6252,8 +6254,10 @@ footer {
 }
 .modal-header img {
   float: left;
-  margin-top: 5%;
-  margin-left: 10%;
+  margin-left: 9%;
+  margin-right: 5%;
+  min-width: 100px;
+  min-height: 100px;
   height: 25%;
   width: 25%;
 }
@@ -6261,13 +6265,11 @@ footer {
   text-justify: auto;
   margin-left: 10%;
   margin-right: 10%;
-  position: absolute;
-  padding: 0px;
 }
 .modal-header h4 {
   position: relative;
   font-style: bold;
-  margin-top: 8vw;
+  margin-top: 7vw;
   margin-left: 30vw;
   line-height: 1.42857143;
 }
@@ -6279,16 +6281,14 @@ footer {
 .modal-header h6 {
   position: relative;
   font-style: bold;
-  margin-left: 5vw;
   font-size: 2vw;
 }
 .research-body {
   border-top: 1px solid #e5e5e5;
   margin-top: -8vh;
   text-justify: auto;
-  margin-left: 80px;
-  margin-right: 80px;
-  position: absolute;
+  margin-left: 10%;
+  margin-right: 10%;
   padding: 20px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
