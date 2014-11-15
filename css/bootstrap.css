@@ -5451,6 +5451,12 @@ button.close {
   margin-left: 10%;
   padding: 15px;
 }
+.modal-header1 {
+  min-height: 16.42857143px;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding: 15px;
+}
 .modal-header .close {
   margin-top: -2px;
 }
@@ -6255,6 +6261,14 @@ footer {
 .modal-header img {
   float: left;
   margin-left: 9%;
+  margin-right: 5%;
+  min-width: 100px;
+  min-height: 100px;
+  height: 25%;
+  width: 25%;
+}
+.modal-header1 img {
+  float: left;
   margin-right: 5%;
   min-width: 100px;
   min-height: 100px;
