@@ -941,7 +941,8 @@ img {
   width: 100%;
   min-width: 1280px;
   height: auto;
-  min-height: 450px;
+  max-height: 465px;
+  min-height: 465px;
 }
 .img-rounded {
   border-radius: 6px;
@@ -5731,7 +5732,7 @@ button.close {
   border-left-color: #fff;
 }
 .carousel {
-  height: 80vh;
+  height: 465px;
   position: relative;
 }
 .carousel-inner {
