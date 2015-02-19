@@ -938,11 +938,10 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  width: 100%;
   min-width: 1280px;
-  height: auto;
-  max-height: 465px;
   min-height: 465px;
+  max-width: 1280px;
+  max-height: 465px;
 }
 .img-rounded {
   border-radius: 6px;
@@ -965,6 +964,7 @@ img {
   border-radius: 50%;
 }
 hr {
+  padding: 15px;
   margin-top: 20px;
   margin-bottom: 20px;
   border: 0;
@@ -1005,6 +1005,7 @@ h6,
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
+  padding: 10px;
 }
 h1 small,
 h2 small,
@@ -1102,6 +1103,7 @@ h5,
 }
 h6,
 .h6 {
+	padding: 10px;
   font-size: 12px;
 }
 p {
@@ -5455,6 +5457,7 @@ button.close {
   margin-right: 10%;
   margin-left: 10%;
   padding: 15px;
+  border-bottom: 1px solid #e5e5e5;
 }
 .modal-header1 {
   min-height: 16.42857143px;
@@ -5733,11 +5736,12 @@ button.close {
 }
 .carousel {
   height: 465px;
+  width: 1280px;
   position: relative;
 }
 .carousel-inner {
   position: relative;
-  width: 100%;
+  width: 1280px;
   overflow: hidden;
 }
 .carousel-inner > .item {
@@ -5884,9 +5888,9 @@ button.close {
 }
 .carousel-caption {
   position: absolute;
-  right: 15%;
+  right: 10%;
   bottom: 20px;
-  left: 15%;
+  left: 10%;
   z-index: 10;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -5905,7 +5909,7 @@ button.close {
   position: absolute;
   right: 50%;
   bottom: 20px;
-  left: 15%;
+  left: 10%;
   z-index: 10;
   padding-bottom: 10%;
   color: #fff;
@@ -5917,15 +5921,15 @@ button.close {
 .carousel-caption-left p {
   font-size: 15px;
 }.carousel-caption-right {
-  padding-top: 5%;
-  position: absolute;
-  left: 60%;
-  bottom: 20px;
-  right: 15%;
-  z-index: 10;
-  padding-bottom: 15vh;
-  color: #fff;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, .6);
+	padding-top: 20%;
+	position: absolute;
+	left: 90px;
+	bottom: 17px;
+	right: 10%;
+	z-index: 10;
+	padding-bottom: 15vh;
+	color: #fff;
+	text-shadow: 0 2px 4px rgba(0, 0, 0, .6);
 }
 .carousel-caption-right h1 {
   font-size: 45px;
@@ -6303,11 +6307,71 @@ footer {
   font-size: 30px;
 }
 .research-body {
-  border-top: 1px solid #e5e5e5;
-  margin-top: -8vh;
+ 
+
+  text-justify: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 20px;
+}
+
+.current-body {
+
   text-justify: auto;
   margin-left: 10%;
   margin-right: 10%;
   padding: 20px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+/*Divs for Images on index page*/
+
+.mainimg-l {
+	position: relative;
+	float: left;
+	width: 360px;
+	height: 360px;
+	padding: 10px;
+}
+
+.mainimg {
+	position: relative;
+	width: 360px;
+	height: 510px;
+	padding: 10px;
+	float:left;
+}
+
+.mainimgurap {
+	position: relative;
+	width: 89%;
+	height: 100px;
+	padding: 25px;
+	padding-top: 20px;
+	float:left;
+}
+
+.mainimg-r {
+	position: relative;
+	float: left;
+	width: 360px;
+	height: 360px;
+	padding: 10px;
+}
+
+.contentmain { 
+	margin-left: 9%;
+    margin-right: 9%;
+    width: 82%;
+	position: absolute;
+
+}
+	
+
+.imgtext {
+	position: absolute;
+	float: left;
+	right: 10%;
+	bottom: 20%;
+}
+
